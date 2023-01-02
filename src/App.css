@@ -36,11 +36,3 @@
     transform: rotate(360deg);
   }
 }
-
-.box {
-  width : 200px;
-  height: 200px;
-  background-color: red;
-  font-size: 24px;
-  font-weight: bold;
-}

@@ -1,4 +1,5 @@
 import World from "./World";
+import styles from "./Hello.module.css";
 
 const Hello = () => {
     return(
@@ -10,7 +11,7 @@ const Hello = () => {
                 opacity : 0.25
             }}>Hello</h1>
             <World/>
-            <div className="box">Hello</div>
+            <div className={styles.box}>Hello</div>
         </div>
     )
 }
