@@ -1,21 +1,14 @@
-import './App.css';
-import Hello from './component/Hello';
-import Welcome from './component/Welcome';
-import styles from './App.module.css';
-import UseStateExample from './component/UseStateExample';
-import PropsExample from './component/PropsExample';
+import Header from "./component/Header";
+import DayList from "./component/DayList";
+import Day from "./component/Day";
 
-function App() {
+export default function App() {
 
   return (
     <div className="App">
-      <Hello/>
-      <Welcome/>
-      <UseStateExample/>
-      <PropsExample age={20}/>
-      <div className={styles.box}>App</div>
+      <Header/>
+      <DayList/>
+      <Day/>
     </div>
   );
 }
-
-export default App;
